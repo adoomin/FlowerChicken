@@ -1,0 +1,3 @@
+execute at @s run kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:flowering_azalea",Count:1b}},distance=..0.75,limit=1]
+execute at @s run summon minecraft:armor_stand ~ ~-0.15 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["FlowerChickEquip","NewFlowerChick"],ArmorItems:[{},{},{},{id:"minecraft:flowering_azalea",Count:1b}]}
+scoreboard players add _new FlowerChickID 1
