@@ -12,4 +12,4 @@ execute as @e[tag=FlowerChickEquip] at @e[tag=FlowerChick] if score @s FlowerChi
 execute unless entity @e[tag=FlowerChick] run scoreboard players set _new FlowerChickID 0
 
 #Remove equipment when flower chicken no exist
-execute as @e[tag=FlowerChickEquip] at @s unless entity @e[tag=FlowerChick,limit=1,distance=..0.15,sort=nearest] run kill @s
+execute as @e[tag=FlowerChickEquip] at @s unless entity @e[tag=FlowerChick,limit=1,distance=..0.2,sort=nearest] run kill @s
